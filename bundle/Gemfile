@@ -1,0 +1,23 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+if File.exist?(file = File.expand_path(".ruby-version", __dir__))
+  ruby File.read(file).strip
+end
+
+gem "bundler"
+gem "debug", platforms: :mri
+gem "minitest"
+gem "minitest-focus"
+gem "minitest-reporters"
+gem "rake"
+gem "rubocop"
+gem "rubocop-md"
+gem "rubocop-minitest"
+gem "rubocop-packaging"
+gem "rubocop-performance"
+gem "rubocop-rake"
+gem "rubocop-shopify"
+gem "ruby-lsp"
+gem "rubygems-tasks"
