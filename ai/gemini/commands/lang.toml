@@ -1,0 +1,2 @@
+description = "Load rules for the given language."
+prompt = "@~/.local/share/ai/rules/lang/{{ args }}.md"
